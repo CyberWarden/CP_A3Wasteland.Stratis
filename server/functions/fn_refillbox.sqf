@@ -73,6 +73,7 @@ switch (_boxType) do
 			["mag", "30Rnd_556x45_Stanag", RANDOM_BETWEEN(5,10)],
 			["mag", "30Rnd_65x39_caseless_mag", RANDOM_BETWEEN(5,10)],
 			["mag", "30Rnd_65x39_caseless_green", RANDOM_BETWEEN(5,10)],
+			["mag", "150Rnd_762x54_Box", RANDOM_BETWEEN(5,10)],
 			["mag", "9Rnd_45ACP_Mag", RANDOM_BETWEEN(5,10)],
 			["mag", "16Rnd_9x21_Mag", RANDOM_BETWEEN(5,10)]
 		];
