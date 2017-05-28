@@ -390,9 +390,9 @@ accessoriesArray = compileFinal str
 	["LRPS (G Hex)", "optic_LRPS_ghex_F", 300, "item"],
 	["LRPS (Tropic)", "optic_LRPS_tna_F", 300, "item"],
 	["NVS", "optic_NVS", 500, "item"],
-	["TWS", "optic_tws", 5000, "item", "HIDDEN"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
-	["TWS MG", "optic_tws_mg", 6000, "item", "HIDDEN"],
-	["Nightstalker", "optic_Nightstalker", 7500, "item", "HIDDEN"]
+	["TWS", "optic_tws", 5000, "item"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
+	["TWS MG", "optic_tws_mg", 6000, "item"],
+	["Nightstalker", "optic_Nightstalker", 7500, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -409,6 +409,8 @@ headArray = compileFinal str
 	["Enhanced Combat Helmet (Black)", "H_HelmetSpecB_blk", 75, "hat"],
 	["Enhanced Combat Helmet (Snakeskin)", "H_HelmetSpecB_snakeskin", 75, "hat"],
 	["Enhanced Combat Helmet (Tropic)", "H_HelmetB_Enh_tna_F", 75, "hat", "noDLC"],
+	["Special Purpose Helmet (Hex)", "H_HelmetO_ViperSP_hex_F", 5000, "hat"],
+	["Special Purpose Helmet (Green Hex)", "H_HelmetO_ViperSP_ghex_F", 5000, "hat"],
 	["Protector Helmet (Hex)", "H_HelmetO_ocamo", 60, "hat"],
 	["Protector Helmet (Urban)", "H_HelmetO_oucamo", 60, "hat"],
 	["Assassin Helmet (Hex)", "H_HelmetSpecO_ocamo", 75, "hat"],
