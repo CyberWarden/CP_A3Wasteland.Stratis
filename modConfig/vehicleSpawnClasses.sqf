@@ -102,6 +102,8 @@ vehicleAddition =
 	"optic_Holosight_smg",
 	"acc_flashlight",
 	"acc_pointer_IR",
+    "H_HelmetIA",
+    "H_HelmetB",
 	"Medikit",
 	"Medikit",
 	"FirstAidKit",
@@ -112,6 +114,7 @@ vehicleAddition2 =
 [
 	"DemoCharge_Remote_Mag",
 	"Titan_AA",
+    "Titan_AT",
 	["3Rnd_UGL_FlareYellow_F", "3Rnd_UGL_FlareWhite_F"],
 	["1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell", "1Rnd_Smoke_Grenade_shell"],
 	["7Rnd_408_Mag", "5Rnd_127x108_Mag", "5Rnd_127x108_APDS_Mag", "10Rnd_127x54_Mag", "10Rnd_50BW_Mag_F"],
