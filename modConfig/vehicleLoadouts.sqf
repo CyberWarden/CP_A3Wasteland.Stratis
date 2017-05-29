@@ -140,6 +140,22 @@ switch (true) do
 		_pylons = ["","","","","","","","","","","","",""];
 	};
 
+	case (_class isKindOf "C_Plane_Civil_01_Racing_F"):
+	{
+		_mags =
+		[
+			["5000Rnd_762x51_Belt", [-1]],
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]],
+			["2Rnd_Bomb_03_F", [0]]
+		];
+		_weapons =
+		[
+			["M134_minigun", [-1]],
+			["CMFlareLauncher", [-1]],
+			["Bomb_03_Plane_CAS_02_F", [0]]
+		];
+	};
+
 	// A-164 Wipeout CAS
 	case (_class isKindOf "Plane_CAS_01_dynamicLoadout_base_F"):
 	{
