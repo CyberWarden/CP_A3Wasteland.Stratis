@@ -51,6 +51,8 @@ switch (true) do
 		_player addWeapon "hgun_ACPC2_F";
 		_player addMagazine "9Rnd_45ACP_Mag";
 		_player addItem "SmokeShell";
+		_player removeItem "FirstAidKit";
+		_player addItem "Medikit";
 	};
 	case (["_engineer_", typeOf _player] call fn_findString != -1):
 	{
@@ -67,6 +69,8 @@ switch (true) do
 		_player addMagazine "9Rnd_45ACP_Mag";
 		_player addItem "FirstAidKit";
 		_player addItem "SmokeShell";
+		_player addItem "MineDetector";
+		_player addItem "Toolkit";
 	};
 	case (["_sniper_", typeOf _player] call fn_findString != -1):
 	{
@@ -83,6 +87,7 @@ switch (true) do
 		_player addMagazine "9Rnd_45ACP_Mag";
 		_player addItem "FirstAidKit";
 		_player addItem "MiniGrenade";
+		_player addWeapon "Rangefinder";
 	};
 	case (["_diver_", typeOf _player] call fn_findString != -1):
 	{
@@ -101,7 +106,7 @@ switch (true) do
 	};
 };
 
-switch (true) do
+/*switch (true) do
 {
 	case (["_medic_", typeOf _player] call fn_findString != -1):
 	{
@@ -118,7 +123,7 @@ switch (true) do
 		_player addWeapon "Rangefinder";
 	};
 };
-
+*/
 if (_player == player) then
 {
 	thirstLevel = 100;
