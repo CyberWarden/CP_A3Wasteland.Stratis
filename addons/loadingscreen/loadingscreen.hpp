@@ -20,7 +20,7 @@ class loadingscreen {
 
     x=safezonex; y=safezoney; w=safezonew; h=safezoneh;
 	style=48 + 0x800;
-    text="addons\loadingscreen\loading.jpg";
+    text="addons\loadingscreen\Loading.jpg";
     sizeEx = -1;
     type=0;
     idc=-1;
