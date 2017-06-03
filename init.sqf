@@ -54,8 +54,10 @@ if (!isDedicated) then
 	{
 		if (hasInterface) then // Normal player
 		{
-			9999 cutText ["Welcome to A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
-
+			//9999 cutText ["Welcome to A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
+			//AJ BEGIN NOTE
+			9999 cutRsc ["loadingscreen","BLACK"]; //Avoid clashes with A3W Layers
+			//AJ END NOTE
 			waitUntil {!isNull player};
 			player setVariable ["playerSpawning", true, true];
 			playerSpawning = true;
