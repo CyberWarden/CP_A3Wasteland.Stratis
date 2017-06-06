@@ -970,7 +970,7 @@ helicoptersArray = compileFinal str
 	["AH-99 Blackfoot", "B_Heli_Attack_01_dynamicLoadout_F", 50000, "vehicle"], // RAH-66 with gunner
 	["Mi-48 Kajman", "O_Heli_Attack_02_dynamicLoadout_F", 60000, "vehicle"], // Mi-28 with gunner 
 
-        ["MLMH FireFly", "B_UAV_01_F", 50000, "vehicle"], // Armed Quad rotor
+    ["MLMH FireFly", "B_UAV_01_F", 50000, "vehicle"], // Armed Quad rotor
 	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 50000, "vehicle"] // Do NOT use "B_T_UAV_03_dynamicLoadout_F" (doesn't support ASRAAM pylons)
 ];
 
