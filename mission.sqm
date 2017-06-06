@@ -8,7 +8,7 @@ class EditorData
 	toggles=14;
 	class ItemIDProvider
 	{
-		nextID=684;
+		nextID=721;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=34;
+		nextID=46;
 	};
 	class Camera
 	{
-		pos[]={2123.7793,5.4012976,1898.8013};
-		dir[]={0.46183735,-0.88461888,-0.065635569};
-		up[]={0.87576467,0.46639118,-0.12446178};
-		aside[]={-0.14071588,-1.3625249e-006,-0.99013168};
+		pos[]={6470.4028,48.390228,7207.5278};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -193,7 +193,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=464;
+		items=468;
 		class Item0
 		{
 			dataType="Group";
@@ -8966,7 +8966,7 @@ class Mission
 			name="VanillaLayer";
 			class Entities
 			{
-				items=60;
+				items=81;
 				class Item0
 				{
 					dataType="Object";
@@ -9978,9 +9978,374 @@ class Mission
 					type="Land_i_Shed_Ind_F";
 					atlOffset=0.81750011;
 				};
+				class Item60
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6454.709,-0.12960815,7248.3872};
+						angles[]={0,5.2135777,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+						name="Carrier2";
+					};
+					id=685;
+					type="Land_Carrier_01_base_F";
+					atlOffset=57.749001;
+				};
+				class Item61
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6331.1152,23.69652,7276.3408};
+						angles[]={0,0.50118959,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=686;
+					type="Land_RampConcrete_F";
+					atlOffset=0.00013542175;
+				};
+				class Item62
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6350.7817,43.332237,7265.7329};
+						angles[]={0,5.2135787,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=687;
+					type="Land_GH_Stairs_F";
+					atlOffset=0.95804596;
+				};
+				class Item63
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6351.4409,47.200119,7267.1704};
+						angles[]={0,5.2135787,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=688;
+					type="Land_GH_Stairs_F";
+					atlOffset=4.8257828;
+				};
+				class Item64
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6348.5205,51.458153,7273.8281};
+						angles[]={0,3.6489,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=689;
+					type="Land_PierLadder_F";
+					atlOffset=3.4167595;
+				};
+				class Item65
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6349.4434,56.890732,7273.1924};
+						angles[]={0,3.6489,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=690;
+					type="Land_PierLadder_F";
+					atlOffset=2.579155;
+				};
+				class Item66
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6349.8975,62.821526,7273.8013};
+						angles[]={0,0.50118959,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=691;
+					type="Land_PierLadder_F";
+					atlOffset=3.1736832;
+				};
+				class Item67
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6347.4321,68.484238,7274.3921};
+						angles[]={0,3.8909245,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=692;
+					type="Land_PierLadder_F";
+					atlOffset=2.5526428;
+				};
+				class Item68
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6353.582,47.109116,7264.4375};
+						angles[]={0,0.50118959,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=693;
+					type="Land_PierLadder_F";
+					atlOffset=1.1118126;
+				};
+				class Item69
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6417.1777,25.738447,7253.1064};
+						angles[]={0,2.0364437,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck5";
+						textures="Orange";
+					};
+					id=694;
+					type="C_Truck_02_box_F";
+					atlOffset=0.089115143;
+				};
+				class Item70
+				{
+					dataType="Group";
+					side="Civilian";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6348.354,23.390446,7281.4897};
+								angles[]={0,0.51935112,0};
+							};
+							side="Civilian";
+							flags=3;
+							class Attributes
+							{
+								init="[this] spawn A3W_fnc_setupStoreNPC";
+								name="VehStore5";
+							};
+							id=696;
+							type="C_man_1_1_F";
+							atlOffset=107.49964;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=695;
+					atlOffset=107.49964;
+				};
+				class Item71
+				{
+					dataType="Marker";
+					position[]={6380.918,0,7253.8169};
+					name="VehStore5_heliSpawn";
+					type="Empty";
+					colorName="ColorBlack";
+					angle=110.693;
+					id=697;
+					atlOffset=77.915878;
+				};
+				class Item72
+				{
+					dataType="Marker";
+					position[]={6323.3179,0,7286.5918};
+					name="VehStore5_landSpawn";
+					type="Empty";
+					colorName="ColorBlack";
+					angle=290.69397;
+					id=698;
+					atlOffset=89.601624;
+				};
+				class Item73
+				{
+					dataType="Marker";
+					position[]={6361.353,0,7308.2368};
+					name="VehStore5_planeSpawn";
+					type="Empty";
+					colorName="ColorBlack";
+					angle=110.74696;
+					id=699;
+					atlOffset=85.09996;
+				};
+				class Item74
+				{
+					dataType="Marker";
+					position[]={6396.2012,0,7213.083};
+					name="VehStore5_seaSpawn";
+					type="Empty";
+					colorName="ColorBlack";
+					angle=257.63187;
+					id=700;
+					atlOffset=69.092514;
+				};
+				class Item75
+				{
+					dataType="Marker";
+					position[]={6454.6289,0,7248.9302};
+					name="TERRITORY_AIRCRAFT_CARRIER_2";
+					markerType="RECTANGLE";
+					type="Empty";
+					colorName="ColorYellow";
+					fillName="DiagGrid";
+					a=190.39799;
+					b=46.667999;
+					angle=28.716;
+					id=701;
+					atlOffset=57.974575;
+				};
+				class Item76
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6339.353,24.700592,7273.5044};
+						angles[]={0,3.6288996,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionATM";
+					};
+					id=702;
+					type="Land_Atm_01_F";
+					atlOffset=0.030960083;
+				};
+				class Item77
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6318.438,18.867027,7290.9297};
+						angles[]={0,0.50118244,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="hideObject this; [this] call A3W_fnc_setupMissionObject";
+						description="hidden pier allows vehicles to spawn correctly on carrier";
+					};
+					id=703;
+					type="Land_Pier_F";
+					atlOffset=112.5096;
+				};
+				class Item78
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6361.7832,18.866688,7309.876};
+						angles[]={0,0.36211431,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="hideObject this; [this] call A3W_fnc_setupMissionObject";
+						description="hidden pier allows vehicles to spawn correctly on carrier";
+					};
+					id=704;
+					type="Land_Pier_F";
+					atlOffset=106.40417;
+				};
+				class Item79
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6382.0034,18.867329,7256.1309};
+						angles[]={0,0.50118244,0};
+					};
+					side="Empty";
+					flags=1;
+					class Attributes
+					{
+						init="hideObject this; [this] call A3W_fnc_setupMissionObject";
+						description="hidden pier allows vehicles to spawn correctly on carrier";
+					};
+					id=705;
+					type="Land_Pier_F";
+					atlOffset=99.239044;
+				};
+				class Item80
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6344.6377,38.131096,7269.3374};
+						angles[]={0,0.50118959,0};
+					};
+					side="Empty";
+					flags=5;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject";
+					};
+					id=706;
+					type="Land_PierLadder_F";
+					atlOffset=0.13727188;
+				};
 			};
 			id=588;
-			atlOffset=0.60174465;
+			atlOffset=5.6963406;
 		};
 		class Item435
 		{
@@ -10289,12 +10654,13 @@ class Mission
 		class Item456
 		{
 			dataType="Marker";
-			position[]={2827.3689,23.389175,331.84399};
+			position[]={2829,23.5,347.5};
 			name="Parking5_spawn";
 			type="Empty";
 			colorName="ColorBlack";
 			angle=213.11584;
 			id=675;
+			atlOffset=0.11082458;
 		};
 		class Item457
 		{
@@ -10380,7 +10746,7 @@ class Mission
 			};
 			id=682;
 			type="Land_Atm_01_F";
-			atlOffset=1.5250015;
+			atlOffset=1.5249939;
 		};
 		class Item463
 		{
@@ -10399,6 +10765,65 @@ class Mission
 			id=683;
 			type="Land_Atm_01_F";
 			atlOffset=1.0339999;
+		};
+		class Item464
+		{
+			dataType="Trigger";
+			position[]={2814.125,23.488724,312.33701};
+			class Attributes
+			{
+				name="Service_Pad_Ship_1";
+				condition="((""LandVehicle"" countType thislist > 0) || (""Air"" countType thislist > 0)  || (""Ship"" countType thislist > 0)) && ((getpos (thislist select 0)) select 2 < 1)";
+				onActivation="_xhandle= (thislist select 0) execVM ""addons\scripts\v_reload.sqf"";";
+				sizeA=10;
+				sizeB=10;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+			};
+			id=684;
+			type="EmptyDetector";
+			atlOffset=0.09954834;
+		};
+		class Item465
+		{
+			dataType="Marker";
+			position[]={6455,0,7248.5};
+			name="Parking6";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=257.63187;
+			id=718;
+			atlOffset=57.806248;
+		};
+		class Item466
+		{
+			dataType="Marker";
+			position[]={6316.5,0,7319};
+			name="Parking6_spawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=110.74696;
+			id=719;
+			atlOffset=95.104996;
+		};
+		class Item467
+		{
+			dataType="Trigger";
+			position[]={6357.6362,23.488457,7309.1782};
+			angle=4.4965253;
+			class Attributes
+			{
+				name="Service_Pad_Ship_2";
+				condition="((""LandVehicle"" countType thislist > 0) || (""Air"" countType thislist > 0)  || (""Ship"" countType thislist > 0)) && ((getpos (thislist select 0)) select 2 < 1)";
+				onActivation="_xhandle= (thislist select 0) execVM ""addons\scripts\v_reload.sqf"";";
+				sizeA=10;
+				sizeB=10;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+			};
+			id=720;
+			type="EmptyDetector";
+			atlOffset=0.099416733;
 		};
 	};
 };
