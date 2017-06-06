@@ -19,8 +19,8 @@
 	----------------------------------------------------------------------------------------------
 */
 
-_maxTime = 20; // 20 seconds max default
-_maxHeight = 1500; // 1500m height max default
+_maxTime = 1800; // 20 seconds max default
+_maxHeight = 15000; // 1500m height max default
 
 /*	------------------------------------------------------------------------------------------
 	DO NOT EDIT BELOW HERE!
@@ -37,7 +37,7 @@ if (isServer) then
 	_mkrInBounds setMarkerShape "ELLIPSE";
 	_mkrInBounds setMarkerBrush "BORDER";
 	_mkrInBounds setMarkerAlpha 1;
-	_mkrInBounds setMarkerSize [(_mapSizeEllipse / 2),(_mapSizeEllipse / 2)];
+	_mkrInBounds setMarkerSize [(_mapSizeEllipse / 1),(_mapSizeEllipse / 1)];
 };
 
 if (hasInterface) then
