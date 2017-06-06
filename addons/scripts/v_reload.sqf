@@ -20,7 +20,6 @@ if (!isnull (gunner _vehicle)) then {
 	if (!isnull (gunner _vehicle)) exitWith {_vehicle vehicleChat format ["Gunner still inside. Service CANCELED!"];};
 };
 
-
 if((player == driver _vehicle) && (!_eng))then {
 	_type = typeOf _vehicle;
 	_playerMoney = player getVariable "cmoney";
@@ -46,6 +45,7 @@ if((player == driver _vehicle) && (!_eng))then {
 	if(_type == "O_MBT_02_cannon_F") then {_price = 500;};
 	if(_type == "I_MBT_03_cannon_F") then {_price = 500;};
 	if(_type == "B_Heli_Transport_01_F") then {_price = 1000;};
+	if(_type == "B_T_UAV_03_F") then {_price = 1000;};
 	if(_type == "B_Heli_Transport_01_camo_F") then {_price = 1000;};
 	if(_type == "B_Heli_Light_01_armed_F") then {_price = 1000;};
 	if(_type == "O_Heli_Light_02_F") then {_price = 1000;};
