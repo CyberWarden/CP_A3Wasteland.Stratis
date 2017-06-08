@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=14;
+	toggles=134;
 	class ItemIDProvider
 	{
-		nextID=721;
+		nextID=727;
 	};
 	class MarkerIDProvider
 	{
-		nextID=178;
+		nextID=179;
 	};
 	class LayerIndexProvider
 	{
-		nextID=46;
+		nextID=60;
 	};
 	class Camera
 	{
-		pos[]={6470.4028,48.390228,7207.5278};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={4977.29,259.14078,5834.8291};
+		dir[]={0.37169927,-0.60582316,0.70344126};
+		up[]={0.28304824,0.79557484,0.53566957};
+		aside[]={0.88416427,2.1389133e-007,-0.46719214};
 	};
 };
 binarizationWanted=0;
@@ -193,7 +193,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=468;
+		items=469;
 		class Item0
 		{
 			dataType="Group";
@@ -8966,7 +8966,7 @@ class Mission
 			name="VanillaLayer";
 			class Entities
 			{
-				items=81;
+				items=82;
 				class Item0
 				{
 					dataType="Object";
@@ -9188,7 +9188,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6528.9316,6.3105364,4928.3608};
+						position[]={6528.9316,6.3102484,4928.3608};
 						angles[]={6.2257466,1.8510264,0.062412973};
 					};
 					side="Empty";
@@ -9201,7 +9201,7 @@ class Mission
 					};
 					id=604;
 					type="C_Truck_02_box_F";
-					atlOffset=-0.078711748;
+					atlOffset=-0.078999758;
 				};
 				class Item16
 				{
@@ -10220,7 +10220,7 @@ class Mission
 					name="VehStore5_planeSpawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=110.74696;
+					angle=110.74694;
 					id=699;
 					atlOffset=85.09996;
 				};
@@ -10343,9 +10343,29 @@ class Mission
 					type="Land_PierLadder_F";
 					atlOffset=0.13727188;
 				};
+				class Item81
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3748.6533,194.32808,4790.8354};
+						angles[]={6.2133021,1.4908776,0.14645058};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						lock="LOCKED";
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck6";
+						textures="Orange";
+					};
+					id=722;
+					type="C_Truck_02_box_F";
+				};
 			};
 			id=588;
-			atlOffset=5.6963406;
+			atlOffset=-76.047882;
 		};
 		class Item435
 		{
@@ -10427,7 +10447,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3749,192.5,4775};
-				angles[]={6.268187,0,0.067394681};
+				angles[]={6.2681928,0,0.067387164};
 			};
 			side="Empty";
 			flags=4;
@@ -10441,7 +10461,7 @@ class Mission
 		class Item441
 		{
 			dataType="Trigger";
-			position[]={3749,192.5,4775.5};
+			position[]={3749,192.49973,4775.5};
 			class Attributes
 			{
 				name="Service_Pad_Middle_Land";
@@ -10454,7 +10474,7 @@ class Mission
 			};
 			id=655;
 			type="EmptyDetector";
-			atlOffset=0.061248779;
+			atlOffset=0.060974121;
 		};
 		class Item442
 		{
@@ -10802,7 +10822,7 @@ class Mission
 			name="Parking6_spawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=110.74696;
+			angle=110.74694;
 			id=719;
 			atlOffset=95.104996;
 		};
@@ -10810,7 +10830,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={6357.6362,23.488457,7309.1782};
-			angle=4.4965253;
+			angle=4.4965243;
 			class Attributes
 			{
 				name="Service_Pad_Ship_2";
@@ -10824,6 +10844,16 @@ class Mission
 			id=720;
 			type="EmptyDetector";
 			atlOffset=0.099416733;
+		};
+		class Item468
+		{
+			dataType="Marker";
+			position[]={3752.3579,0,4775.415};
+			name="marker_178";
+			text="Resupply";
+			type="b_service";
+			id=721;
+			atlOffset=-192.74416;
 		};
 	};
 };
