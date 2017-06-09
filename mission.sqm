@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=134;
+	toggles=6;
 	class ItemIDProvider
 	{
 		nextID=727;
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=60;
+		nextID=62;
 	};
 	class Camera
 	{
-		pos[]={4977.29,259.14078,5834.8291};
-		dir[]={0.37169927,-0.60582316,0.70344126};
-		up[]={0.28304824,0.79557484,0.53566957};
-		aside[]={0.88416427,2.1389133e-007,-0.46719214};
+		pos[]={2047.3802,104.45873,5801.5122};
+		dir[]={-0.79183787,-0.32385951,-0.51787853};
+		up[]={-0.2710892,0.94608176,-0.17729792};
+		aside[]={-0.54738218,3.2578828e-007,0.83694756};
 	};
 };
 binarizationWanted=0;
@@ -9477,7 +9477,7 @@ class Mission
 				class Item31
 				{
 					dataType="Marker";
-					position[]={2812.4092,23.389175,308.90811};
+					position[]={2807.5,23.487007,300};
 					name="VehStore4_planeSpawn";
 					type="Empty";
 					colorName="ColorBlack";
@@ -10216,13 +10216,13 @@ class Mission
 				class Item73
 				{
 					dataType="Marker";
-					position[]={6361.353,0,7308.2368};
+					position[]={6375.5,0,7303.5};
 					name="VehStore5_planeSpawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=110.74694;
+					angle=110.74693;
 					id=699;
-					atlOffset=85.09996;
+					atlOffset=83.978752;
 				};
 				class Item74
 				{
@@ -10365,7 +10365,7 @@ class Mission
 				};
 			};
 			id=588;
-			atlOffset=-76.047882;
+			atlOffset=-76.046204;
 		};
 		class Item435
 		{
@@ -10822,7 +10822,7 @@ class Mission
 			name="Parking6_spawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=110.74694;
+			angle=110.74693;
 			id=719;
 			atlOffset=95.104996;
 		};
