@@ -23,7 +23,7 @@ pp_marker_create = {
   _marker setMarkerTypeLocal _type;
   _marker setMarkerColorLocal _color;
   _marker setMarkerSizeLocal _size;
-  //_marker setMarkerText _text;
+  _marker setMarkerText _text;
   (_marker)
 };
 
