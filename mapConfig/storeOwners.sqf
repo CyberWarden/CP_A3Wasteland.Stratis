@@ -13,19 +13,22 @@ storeOwnerConfig = compileFinal str
 	["GenStore1", 1, 270, []],
 	["GenStore2", 4, 310, []],
 	["GenStore3", 4, 340, []],
+	["GenStore4", -1, [], []],
+	["GenStore5", -1, [], []],
 
 	["GunStore1", 0, 5, []],
 	["GunStore2", 1, 130, []],
 	["GunStore3", 5, 85, []],
 	["GunStore4", 1, [30, 1.5], []],
-	["GunStore5", 1, [30, 1.5], []],
+	["GunStore5", -1, [], []],
 
 	// Buttons you can disable: "Land", "Armored", "Tanks", "Helicopters", "Boats", "Planes"
 	["VehStore1", 0, 195, ["Planes"]],
 	["VehStore2", 2, 285, ["Boats"]],
 	["VehStore3", 1, 245, ["Planes"]],
 	["VehStore4", -1, [], []],
-	["VehStore5", -1, [], []]
+	["VehStore5", -1, [], []],
+	["VehStore6", -1, 264, ["Planes"]]
 ];
 
 // Outfits for store owners
@@ -34,6 +37,7 @@ storeOwnerConfigAppearance = compileFinal str
 	["GenStore1", [["weapon", ""], ["uniform", "U_IG_Guerilla2_2"]]],
 	["GenStore2", [["weapon", ""], ["uniform", "U_IG_Guerilla2_3"]]],
 	["GenStore3", [["weapon", ""], ["uniform", "U_IG_Guerilla3_1"]]],
+	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla3_1"]]],
 
 	["GunStore1", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],
 	["GunStore2", [["weapon", ""], ["uniform", "U_O_SpecopsUniform_blk"]]],
@@ -44,5 +48,6 @@ storeOwnerConfigAppearance = compileFinal str
 	["VehStore2", [["weapon", ""], ["uniform", "U_Competitor"]]],
 	["VehStore3", [["weapon", ""], ["uniform", "U_Competitor"]]],
 	["VehStore4", [["weapon", ""], ["uniform", "U_Competitor"]]],
-	["VehStore5", [["weapon", ""], ["uniform", "U_Competitor"]]]
+	["VehStore5", [["weapon", ""], ["uniform", "U_Competitor"]]],
+	["VehStore6", [["weapon", ""], ["uniform", "U_Competitor"]]]
 ];
