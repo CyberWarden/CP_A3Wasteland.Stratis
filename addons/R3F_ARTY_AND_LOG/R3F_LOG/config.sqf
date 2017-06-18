@@ -75,8 +75,8 @@ R3F_LOG_CFG_objets_remorquables append R3F_LOG_CFG_objets_remorquablesH;
  */
 R3F_LOG_CFG_heliporteurs =
 [
-	//"Helicopter_Base_F"
-	//"Heli_Light_01_base_F",
+	"Helicopter_Base_F"
+	"Heli_Light_01_base_F",
 	"Heli_Light_02_base_F",
 	"Heli_light_03_base_F",
 	"Heli_Attack_01_base_F",
@@ -106,7 +106,14 @@ R3F_LOG_CFG_objets_heliportables =
 	"Ship_F",
 	"Plane",
 	"UAV_03_base_F",
-	"Heli_Light_01_base_F"
+	"B_Slingload_01_Fuel_F",
+	"B_Slingload_01_Medevac_F",
+	"B_Slingload_01_Repair_F",
+	"B_Slingload_01_Ammo_F",
+	"Land_Pod_Heli_Transport_04_fuel_F",
+	"Land_Pod_Heli_Transport_04_medical_F",
+	"Land_Pod_Heli_Transport_04_repair_F",
+	"Land_Pod_Heli_Transport_04_ammo_F"
 ];
 
 /**
