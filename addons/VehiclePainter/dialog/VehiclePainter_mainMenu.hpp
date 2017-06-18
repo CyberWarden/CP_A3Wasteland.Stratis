@@ -47,7 +47,7 @@ class VehPaint_Menu
 		class VehPaint_Menu_Title2:w_RscText
 		{
 			idc=-1;
-			text="$ 500 per paint job";
+			text="$500 per paint job";
 			x=0.30;
 			y=0.116;
 			w=0.31;
