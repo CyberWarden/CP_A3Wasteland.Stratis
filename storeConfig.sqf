@@ -798,6 +798,15 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
+	["Empty AAF Ammo Crate", "Box_IND_Ammo_F", 200, "ammocrate"],
+	["Empty AAF Weapons Crate", "Box_IND_Wps_F", 400, "ammocrate"],
+	["Empty AAF Special Weapons Crate", "Box_IND_WpsSpecial_F", 800, "ammocrate"],
+	["Empty CSAT Ammo Crate", "Box_East_Ammo_F", 200, "ammocrate"],
+	["Empty CSAT Weapons Crate", "Box_East_Wps_F", 400, "ammocrate"],
+	["Empty CSAT Special Weapons Crate", "Box_East_WpsSpecial_F", 800, "ammocrate"],
+	["Empty NATO Ammo Crate", "Box_NATO_Ammo_F", 200, "ammocrate"],
+	["Empty NATO Weapons Crate", "Box_NATO_Wps_F", 400, "ammocrate"],
+	["Empty NATO Special Weapons Crate", "Box_NATO_WpsSpecial_F", 800, "ammocrate"],
 	["Pier Ladder", "Land_PierLadder_F", 250, "object"],
 	["Ammo Cache", "Box_FIA_Support_F", 250, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
@@ -966,9 +975,21 @@ helicoptersArray = compileFinal str
 	["AH-9 Pawnee", "B_Heli_Light_01_dynamicLoadout_F", 35000, "vehicle", "variant_pawneeNormal"], // Armed AH-6
 	["PO-30 Orca (DAR)", "O_Heli_Light_02_dynamicLoadout_F", 30000, "vehicle", "variant_orcaDAR"], // Armed Ka-60
 	["PO-30 Orca (DAGR)", "O_Heli_Light_02_dynamicLoadout_F", 40000, "vehicle", "variant_orcaDAGR"], // Armed Ka-60, add "HIDDEN" if you don't want it, but don't remove the line!
+	["V-44 X Blackfish (VIC Transport)", "B_T_VTOL_01_vehicle_F", 40000, "vehicle"],
+	["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 40000, "vehicle"],
+	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 85000, "vehicle"],
 	["WY-55 Hellcat (Armed)", "I_Heli_light_03_dynamicLoadout_F", 40000, "vehicle"], // Armed AW159
 	["AH-99 Blackfoot", "B_Heli_Attack_01_dynamicLoadout_F", 50000, "vehicle"], // RAH-66 with gunner
 	["Mi-48 Kajman", "O_Heli_Attack_02_dynamicLoadout_F", 60000, "vehicle"], // Mi-28 with gunner 
+	
+	["Fuel container [DLC]", "B_Slingload_01_Fuel_F", 8500, "vehicle"],
+	["Medical container [DLC]", "B_Slingload_01_Medevac_F", 12500, "vehicle"],
+	["Repair container [DLC]", "B_Slingload_01_Repair_F", 15000, "vehicle"],
+	["Ammo container [DLC]", "B_Slingload_01_Ammo_F", 35000, "vehicle"],
+	["Fuel pod from Mi-290 Taru  [DLC]", "Land_Pod_Heli_Transport_04_fuel_F", 8500, "vehicle"],
+	["Medical pod from Mi-290 Taru  [DLC]", "Land_Pod_Heli_Transport_04_medical_F",12500, "vehicle"],
+	["Repair pod from Mi-290 Taru  [DLC]", "Land_Pod_Heli_Transport_04_repair_F", 15000, "vehicle"],
+	["Ammo pod from Mi-290 Taru [DLC]", "Land_Pod_Heli_Transport_04_ammo_F", 35000, "vehicle"],
 
     ["MLMH FireFly", "B_UAV_01_F", 50000, "vehicle"], // Armed Quad rotor
 	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 50000, "vehicle"] // Do NOT use "B_T_UAV_03_dynamicLoadout_F" (doesn't support ASRAAM pylons)
@@ -977,7 +998,7 @@ helicoptersArray = compileFinal str
 planesArray = compileFinal str
 [
 	["Caesar BTT", "C_Plane_Civil_01_F", 2500, "vehicle"],
-        ["Ceasar BTT Armed", "C_Plane_Civil_01_Racing_F", 5000, "vehicle"],
+    ["Ceasar BTT Armed", "C_Plane_Civil_01_Racing_F", 5000, "vehicle"],
 
 	["A-143 Buzzard AA", "I_Plane_Fighter_03_dynamicLoadout_F", 40000, "vehicle", "variant_buzzardAA"],
 	["A-143 Buzzard CAS", "I_Plane_Fighter_03_dynamicLoadout_F", 50000, "vehicle", "variant_buzzardCAS"],
